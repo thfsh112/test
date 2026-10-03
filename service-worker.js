@@ -1,5 +1,5 @@
-const CACHE='tiny-counter-pwa-v1';
-const SHELL=['./','./index.html','./manifest.webmanifest','./icon-192.png','./icon-512.png'];
+const CACHE='tiny-counter-pwa-v2';
+const SHELL=['./','./index.html','./manifest.webmanifest?v=20261003-01','./icon-192.png?v=20261003-01','./icon-512.png?v=20261003-01'];
 
 self.addEventListener('install',event=>{
   event.waitUntil(
