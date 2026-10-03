@@ -1,10 +1,10 @@
-const CACHE='tiny-counter-pwa-v3';
+const CACHE='tiny-counter-pwa-v4';
 const SHELL=[
   './',
   './index.html',
-  './manifest.webmanifest?v=20261003-02',
-  './icon-192.png?v=20261003-02',
-  './icon-512.png?v=20261003-02'
+  './manifest.webmanifest?v=20261003-03',
+  './icon-192.png?v=20261003-03',
+  './icon-512.png?v=20261003-03'
 ];
 
 self.addEventListener('install',event=>{
